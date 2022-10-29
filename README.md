@@ -3,11 +3,13 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Containerized Dev Environment
-This project contains a working dev environment pre-installing:
+This project contains a working containerized dev environment pre-installing:
 - GitHub client
 - Python Configuration
 - Node
 - AWS Client
+
+It should work in CodeSpaces, Mac Silicon, Windows, etc...
 
 ## Contributors
 
