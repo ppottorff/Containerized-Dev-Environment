@@ -1,6 +1,6 @@
 {
-  "projectName": "all-contributors",
-  "projectOwner": "all-contributors",
+  "projectName": "Containerized-Dev-Environment",
+  "projectOwner": "ppottorff",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": ["README.md"],
@@ -19,5 +19,10 @@
   },
   "linkToUsage": true,
   "skipCi": true,
-  "contributors": []
+  "contributors": [
+    "question",
+    "doc", 
+    "review",
+    "talk"
+   ]
 }
