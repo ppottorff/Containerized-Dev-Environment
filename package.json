@@ -3,5 +3,6 @@
   "description": "Mono repo for EFRAP Website",
   "author": "Paul Pottorff <paul@efrap.com",
   "license": "MIT",
-  "private":true
+  "private": true,
+  }
 }
