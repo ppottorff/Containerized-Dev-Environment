@@ -18,10 +18,8 @@
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	
-	// Brew is good for installing things like git, but you can also install them via apt-get or other package managers.
 	"features": {
-		//"homebrew": "latest" - Not supported on Apple Silicon for now
-		"github-cli": "latest"
+		"github-cli": "latest",
 		//"aws-cli": "latest",
 		//"aws_cdk": "latest"
 	},
