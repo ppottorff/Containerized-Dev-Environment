@@ -6,6 +6,7 @@
       "dbaeumer.vscode-eslint",
       "AquaSecurityOfficial.trivy-vulnerability-scanner",
       "GitHub.copilot",
-      "bridgecrew.checkov"
+      "bridgecrew.checkov",
+      "christian-kohler.npm-intellisense"
     ]
   }
