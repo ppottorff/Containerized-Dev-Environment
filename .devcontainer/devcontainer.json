@@ -30,10 +30,6 @@
 		//http://github.com/devcontainers-contrib/features/tree/main/src/angular-cli
 		"ghcr.io/devcontainers-contrib/features/angular-cli:1": {
 			"version": "latest"
-		},
-		//https://github.com/devcontainers/features/tree/main/src/node
-		"ghcr.io/devcontainers/features/node:1": {
-			"version": "lts"
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
