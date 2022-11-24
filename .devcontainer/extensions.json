@@ -1,14 +1,9 @@
-{
-  "recommendations": [
-    
-    "nrwl.angular-console",
-    "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
-    "AquaSecurityOfficial.trivy-vulnerability-scanner",
-    "GitHub.copilot",
-    "ms-vscode-remote.remote-containers",
-    "github.codespaces",
-    "ms-vscode-remote.vscode-remote-extensionpack",
-    "bridgecrew.checkov",
-  ]
-}
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+    {
+        "recommendations": [
+          "ms-vscode-remote.remote-containers",
+          "github.codespaces",
+          "ms-vscode-remote.vscode-remote-extensionpack"
+        ]
+      }

@@ -17,20 +17,8 @@
 	"remoteUser": "vscode",
 	
 	"features": {
-		//https://github.com/devcontainers/features/tree/main/src/github-cli
-		"github-cli": "latest",  
-		//https://github.com/devcontainers/features/tree/main/src/aws-cli
-		"ghcr.io/devcontainers/features/aws-cli:1": {
-			"version": "latest"
-		}, 
-		//http://github.com/devcontainers-contrib/features/tree/main/src/aws-cdk
-		"ghcr.io/devcontainers-contrib/features/aws-cdk:1": {
-			"version": "latest"
-		},
-		//http://github.com/devcontainers-contrib/features/tree/main/src/angular-cli
-		"ghcr.io/devcontainers-contrib/features/angular-cli:1": {
-			"version": "latest"
-		}
+		// https://github.com/devcontainers/features/tree/main/src/github-cli
+		"github-cli": "latest"  
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	 "forwardPorts": [8081],
