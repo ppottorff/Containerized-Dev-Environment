@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.236.0/containers/ubuntu
 {
-	"name": "NodeContainer",
+	"name": "NodeAngContainer",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": "..",
@@ -9,10 +9,7 @@
 			// Update 'VARIANT' to pick a Python version: 3, 3.9, 3.8, 3.7, 3.6.
 			// Append -bullseye or -buster to pin to an OS version.
 			// Use -bullseye variants on local on arm64/Apple Silicon.
-			"VARIANT": "3.9-bullseye",
-			// Options
-			"NODE_VERSION": "lts/*"
-			
+			"VARIANT": "3.9-bullseye"	
 		}
 	},
 
@@ -20,12 +17,24 @@
 	"remoteUser": "vscode",
 	
 	"features": {
-		"github-cli": "latest",
+		//https://github.com/devcontainers/features/tree/main/src/github-cli
+		"github-cli": "latest",  
+		//https://github.com/devcontainers/features/tree/main/src/aws-cli
 		"ghcr.io/devcontainers/features/aws-cli:1": {
 			"version": "latest"
 		}, 
-		//"aws-cli": "latest",
-		//"aws_cdk": "latest"
+		//http://github.com/devcontainers-contrib/features/tree/main/src/aws-cdk
+		"ghcr.io/devcontainers-contrib/features/aws-cdk:1": {
+			"version": "latest"
+		},
+		//http://github.com/devcontainers-contrib/features/tree/main/src/angular-cli
+		"ghcr.io/devcontainers-contrib/features/angular-cli:1": {
+			"version": "latest"
+		},
+		//https://github.com/devcontainers/features/tree/main/src/node
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "lts"
+		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	 "forwardPorts": [8081],
