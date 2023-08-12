@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![CodeFactor](https://www.codefactor.io/repository/github/smarterprey/containerized-dev-environment/badge)](https://www.codefactor.io/repository/github/smarterprey/containerized-dev-environment)
+[![CodeFactor](https://www.codefactor.io/repository/github/ppottorff/containerized-dev-environment/badge)](https://www.codefactor.io/repository/github/ppottorff/containerized-dev-environment)
 
 # Containerized Dev Environment
 This project contains a working containerized dev environment pre-installing:
