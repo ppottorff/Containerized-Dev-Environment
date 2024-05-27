@@ -1,7 +1,7 @@
 {
-  "name": "EFRAP Website",
-  "description": "Mono repo for EFRAP Website",
-  "author": "Paul Pottorff <paul@efrap.com",
+  "name": "Some App",
+  "description": "Some app that does some stuff",
+  "author": "Some Guy <some.guy@someplace.com",
   "license": "MIT",
   "private": true,
   }

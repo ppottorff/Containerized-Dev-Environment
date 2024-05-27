@@ -20,13 +20,20 @@
 	
 	"features": {
 		"github-cli": "latest",
-		//"aws-cli": "latest",
-		//"aws_cdk": "latest"
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	 "forwardPorts": [8081],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bash ./.devcontainer/post-create.sh"
+	"postCreateCommand": "bash ./.devcontainer/post-create.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vsliveshare.vsliveshare",
+				"ms-azuretools.vscode-docker",
+				"github.vscode-github-actions"
+			]
+		}
+	}
 
 }
