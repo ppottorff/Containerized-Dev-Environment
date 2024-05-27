@@ -31,7 +31,9 @@
 			"extensions": [
 				"ms-vsliveshare.vsliveshare",
 				"ms-azuretools.vscode-docker",
-				"github.vscode-github-actions"
+				"github.vscode-github-actions",
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
 			]
 		}
 	}

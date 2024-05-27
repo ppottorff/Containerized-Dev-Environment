@@ -1,0 +1,17 @@
+name: 'Dependency Review Action'
+on: [pull_request]
+permissions:
+    contents: read
+jobs:
+    dependency-review:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 'Checkout Repository'
+              uses: actions/checkout@v4
+            - name: 'Dependency Review Action'
+              uses: actions/dependency-review-action@v4
+              with:
+                # will fail on or higher than high severity
+                fail-on-severity: high
+                # SPDX Expression should catch any gpl license - spdx.dev/use/specifications
+                deny-licenses: 'GPL-1.0-only OR GPL-1.0-or-later OR GPL-2.0-only OR GPL-2.0-or-later OR GPL-3.0-only OR GPL-3.0-or-later OR LGPL-2.1-only OR LGPL-2.1-or-later OR LGPL-3.0-only OR LGPL-3.0-or-later OR AGPL-3.0-only OR AGPL-3.0-or-later'
